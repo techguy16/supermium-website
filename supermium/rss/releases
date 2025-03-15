@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Supermium Web Browser</title>
+<link>https://www.win32subsystem.live/supermium/</link>
+<description>Supermium Web Browser Releases</description>
+<language>en-us</language>
+<copyright>© 2024 Supermium</copyright>
+<atom:link href="https://win32subsystem.live/supermium/rss/releases" rel="self" type="application/rss+xml" />
+<item>
+<title>Supermium 126.0.6478.260 R6</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r6</link>
+<description><![CDATA[This new release of Supermium 126 ESR contains the following changes:<br />
+-upstream code updated to the latest 126 ESR tag, with all relevant security and stability updates included<br />
+-(#907, #935, #962, #1042) Restored background to top of side panel<br />
+-(#972) --chrome-refresh-2023-top-chrome-font restored<br />
+-(#1028) CSS feature level bumped up to assure compatibility with twitch.tv<br />
+-(#1051) Fixed a single-process mode issue with regards to accessing settings for various extensions.<br />
+-(#935, #973) Extra theme colour options restored. Some duplicates exist for the purpose of positioning the colour picker within the visible area on the side panel.<br />
+-(#1044) --disable-captive-portals switch added<br />
+-(#1057) ECH connections are blocked in ungoogled-supermium mode<br />
+-(#1030, #1058) Possible mitigation for Windows XP cold start failure<br />
+-(#1014) UAC compliance for uninstaller improved by changing it to a formal Windows application<br />
+-(#1018) Installer should now add registry entry for Noto Emoji to mitigate Windows 7 font installation bug<br />
+-GDI Skia code customizations removed; GDI will remain functional in Supermium but will be de-prioritized in favour of DirectWrite<br />
+<br />
+<details><summary>Hashes</summary><br />
+<br />
+<pre><br />
+<br />
+supermium_126_32_nonsetup.zip : 137126995 bytes<br />
+SHA2-256 : d982694ec26617f58ec5ed4fc7e67532b87cd6d2f9398f31c81dde830c6ad510<br />
+SHA3-512 : fe546a29dd262647346a47d33474fe8fbde8d20b0d11eef4021fd0e6ff5ba841ca0a8768997cc4ec3fbd8c881f4d20473b4f847f3fa387c961fc6bd3cf9594a1<br />
+<br />
+supermium_126_32_setup.exe : 103678257 bytes<br />
+SHA2-256 : 835d7fb31ce1999f03ccf9a579d1502ccafeb3c2d0c15e9e18a8c9332f177443<br />
+SHA3-512 : 6c99619c0c182dc2d1a4718275ba908ab60603618639d434a9dbc6d12c1e9df4c407880af6671aa050bc8157f0a86189299587668ec8da8493ffa1b7f0594bc1<br />
+<br />
+supermium_126_32_setup_premium.exe : 103793075 bytes<br />
+SHA2-256 : d7d60812b850788b85f1c7fcce17b5eaf2aa28aa0278497ac62ece7423903b37<br />
+SHA3-512 : 6107c0eb1fdd72588cde4195e0db71659ffa13ed32b2d78dcd34ed54fd29df09f5054679e30ba9000f8d911e009eac6c87795f33dc6bba7709e86662faeda8d5<br />
+<br />
+supermium_126_64_nonsetup.zip : 155939372 bytes<br />
+SHA2-256 : 8415aa409ce2951d81e62b820759da66769911e53abb058e6475d0b19b498a6f<br />
+SHA3-512 : 3a08fbe0ca658bcae53c32acd5914b5f4cea82e0284cfa6d862d787035b162009aac40339e28cfb6765223de299c7f7e55330330cbf517225964b76bb760d740<br />
+<br />
+supermium_126_64_setup.exe : 115576934 bytes<br />
+SHA2-256 : 4d6e93aed6159e10d29871da41b5e83dbf28bfa49d8e38829624916670035900<br />
+SHA3-512 : 77e9163d04a4f9e8cea019609289bfe44223a05298ce51859abe01dc723984fd031a4905e7d1e4267e8e1a97584ab84b9d48ea4a47c6d709df3435b17ac12a50<br />
+<br />
+supermium_126_64_setup_premium.exe : 115576934 bytes<br />
+SHA2-256 : 4d6e93aed6159e10d29871da41b5e83dbf28bfa49d8e38829624916670035900<br />
+SHA3-512 : 77e9163d04a4f9e8cea019609289bfe44223a05298ce51859abe01dc723984fd031a4905e7d1e4267e8e1a97584ab84b9d48ea4a47c6d709df3435b17ac12a50<br />
+<br />
+supermium_126_debug_release_32.7z : 1296593903 bytes<br />
+SHA2-256 : 5bf2088f8d3ade67027ec93b8ec4592160292de4b3c6c54a60e227bdce54a547<br />
+SHA3-512 : 384e82eb9ca112dfc8d7396762c80e53cd4e3752b26479e73d5586d916aaf37931d362b424833de1f92b6dcec8a569cd01e7107041eed8d6d682f7e0bcc6a948<br />
+<br />
+supermium_126_debug_release_64_part.7z.001 : 1677721600 bytes<br />
+SHA2-256 : 20b4b4020e3e1bf60c43b7337c0ecec8960ff31b1d426afb10a1ac65599aaede<br />
+SHA3-512 : 27be27b58437f41b15cbe7e38d0845d4b5d402f495c07d60c45938f02e00ed52cafe720d8674c69cb0f31b550aa7f3110ae5b5cdae513062e1624220264ff983<br />
+<br />
+supermium_126_debug_release_64_part.7z.002 : 654562563 bytes<br />
+SHA2-256 : 0816f6cebc54e8c93a9c03b6c3c589ddf2c8f2a597a7beba944e374ed3ff6c64<br />
+SHA3-512 : 15f7d81447df5d944a1c7c78107936ef2bdff1b52bd39a38f29b241c3127e7e9802d374e9b7552fa8436e5ab542340c3db8a7bd880d07f1e0cc9da796c6c6726<br />
+<br />
+</pre></details>]]></description>
+<pubDate>Tue, 17 Dec 2024 07:56:25 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r6</guid>
+</item>
+<item>
+<title>Supermium 126.0.6478.256 R5</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r5</link>
+<description><![CDATA[The Chromium base was updated from 126.0.6478.254 to 126.0.6478.256 to reflect the ESR patches in the recent period.<br />
+<br />
+Other changes include:<br />
+(#1008) - Crash when using user agent overrides via developer tools resolved<br />
+(#1005) - Introduced #disable-ech flag for accessing websites that may need ECH disabled to visit<br />
+(#1003) - Browser will no longer crash when pressing the right arrow key on an autocomplete suggestion containing certain characters<br />
+(#977) - Restored #media-dial-route-provider flag<br />
+(#635, #636, #842) - Look of tab search button revised to match Chrome 109 and earlier when using Aero Glass. The button will also become available with the "XP theme".<br />
+(#1001, #959) - Printing issues with PDF files resolved<br />
+(#916) - Improved PDF fallback on Windows 7 - see https://github.com/win32ss/pdfium for details<br />
+<br />
+<details><summary>Hashes</summary><br />
+<pre><br />
+Filename: supermium_126_64_setup.exe<br />
+SHA2-256: 2b25062827056a34717440498107557d761337605cbf9a35f61f3c49af9dd72a<br />
+SHA3-512: ec267a0033d45ce87c82bea58f3762eb55077b3d837ba316185eaba7fda1d4040f11e3782f78a97af2fd9accea0cef542f99abdee6a511147b86a8e26fc6db21<br />
+Filename: supermium_126_32_setup.exe<br />
+SHA2-256: 97993f4aa7976adb3bd79f402cdcae0986af1d972c873fdb617363b986b2109b<br />
+SHA3-512: 51ceb079a5c0b96e6b4848a4372a0e75f4315e4bbbbc18f3f672de3eadb22f8c563ff1dfc14a7f1b58613b59fa5398b1e375e945e53b01de14d385804c180900<br />
+Filename: supermium_126_32_nonsetup.zip<br />
+SHA2-256: 2d8c26a9c7cc4df1d7d64039ab528d9dc83d44372e319d24c8320d2d6546d4be<br />
+SHA3-512: 92afcbbd8334874457eb0dea2bd2b51094e84c2b5fab0b80dba1b2bfad4908ea95df239cbdaf22e82dc9950be859768d318b46069c5b178353ff47dd528679c2<br />
+Filename: supermium_126_64_nonsetup.zip<br />
+SHA2-256: 3cee179afdf8e2e1f51eef5d070b7d9082e16d65d2649fdb541c2b3ed82a36ac<br />
+SHA3-512: 0da2ef71ddf0df1f8bffe577c3d1d5b4bfd1b46c9cb7577bbacaae089266d644e6fc3ea0c37230f7b95d365d9e7a455411f5e70cbf56862aac6978ebb9a18cc5<br />
+Filename: supermium_32_syms.7z<br />
+SHA2-256: 36d5aecdb4493a9acc8111b4c67a450dbe50130ed2db156c3e976b80225abaf6<br />
+SHA3-512: e4935b827af916c245d45e0fcabf7701806b5d052d771304f9be5526aa6551c55e4ba1272000a3a5e888e489e0a5558068fb04017f3a77ec5bbbbf8f29a13fb4<br />
+Filename: supermium_64_syms.7z<br />
+SHA2-256: d5d42456bd11f75a05b89bce7a8aa2893a73238084ac40eafd3e30c05bc5c940<br />
+SHA3-512: 481b5ae1b9fb5b3d879b1f06986192a6d2d4634d448b8197ad31980ff325d50c003fd97813c48b0780da0ae76aaa575b09ab2384067098f47edb32977ec39965<br />
+Filename: supermium_debug_release_32.7z:<br />
+SHA2-256: 5bf2088f8d3ade67027ec93b8ec4592160292de4b3c6c54a60e227bdce54a547<br />
+SHA3-512: 384e82eb9ca112dfc8d7396762c80e53cd4e3752b26479e73d5586d916aaf37931d362b424833de1f92b6dcec8a569cd01e7107041eed8d6d682f7e0bcc6a948<br />
+Filename: supermium_debug_release_64_part.7z.001:<br />
+SHA2-256: 20b4b4020e3e1bf60c43b7337c0ecec8960ff31b1d426afb10a1ac65599aaede<br />
+Filename: supermium_debug_release_64_part.7z.002:<br />
+SHA2-256: 0816f6cebc54e8c93a9c03b6c3c589ddf2c8f2a597a7beba944e374ed3ff6c64<br />
+</pre><br />
+</details>]]></description>
+<pubDate>Tue, 12 Nov 2024 15:20:23 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r5</guid>
+</item>
+<item>
+<title>Supermium 126.0.6478.254 R4</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r4</link>
+<description><![CDATA[The Chromium base was updated from 126.0.6478.249 to 126.0.6478.259 to reflect the ESR patches in that period. This may help with a few issues that were not tied to a Supermium-specific problem, such as random renderer crashes on Windows 7.<br />
+<br />
+Other changes are as follows:<br />
+-(#760 and others) removed loader deadlock in memory partition area on Windows 7<br />
+-(#915) added option to disable Crashpad, ``--disable-crashpad``<br />
+-(#588) changing default behaviour for icon loading on download page due to excessive process creation and poorer variety of icons. Use ``--force-generic-download-icons`` to restore this functionality.<br />
+-(#898) added double click to close tabs feature from Thorium, ``--double-click-close-tab``<br />
+-(#946) crash when adding bookmarks while ``--no-sync`` in use, is fixed<br />
+-(#916) PDF loading bug on Windows 7 fixed, with change in fallback font from Arial to Arial Unicode MS<br />
+-(#937) Patcher introduced for Widevine CDM on Windows 7. It is located in the base Supermium directory and is named ``win7_fixwidevine.cmd``. It is based on the default user data location, users with a non-default user data directory will have to change it accordingly. Use each time a new Widevine release has been downloaded (there are no auto-updates for integrity reasons, so this should only need to be done sparingly).<br />
+-(#912, #955) hashes are now available in SHA2-256 and SHA3-512 format for each file in the Releases directory<br />
+-(#906) ``--history-journeys`` and ``--side-panel-journeys`` restored<br />
+-(#871) Dark mode implementation fixed and duplicate options removed, replaced with unique options<br />
+-(#899) Zip distribution added for XP users who may not be able to run the installer due to error 6 (OS issue if persistent)<br />
+<br />
+SHA2-256 checksum for supermium_126_64_setup.exe:<br />
+d9af9fe40bc6961671111c2a14a8bbab58d8169ecec6237167402604adf0d7f5<br />
+SHA3-512 checksum for supermium_126_64_setup.exe:<br />
+e7dd8dc855b38e0c561ca55dcdd583a34f8b148a5e964e346f96d46efe2ff3e9e8e1bec71217453ef04d2afd6bd9f4bd41188f0f183c2c422b29476d0b494134<br />
+SHA2-256 checksum for supermium_126_32_setup.exe:<br />
+3fc83926f7017baa92d8b1cc1cf4f1e1772993ccba749997042c6580d323fef9<br />
+SHA3-512 checksum for supermium_126_32_setup.exe:<br />
+ddc53b87f1bdafd281aa319f9e06613773b27d3add7e7ae944e940f736a6141935f1be50a3bc5d8b28558430ded75ebebe40934f72d079e8d3ae9748e1999ef1<br />
+SHA2-256 checksum for supermium_126_32_nonsetup.zip:<br />
+e1660c7bdb725a1cf6abbbb1d36e5285753d4815817de5403ccb25170a156e03<br />
+SHA3-512 checksum for supermium_126_32_nonsetup.zip:<br />
+a31e1a81c9029a533ba2cd3076ad1cd6ee7a37ed850a5bb3407247b0e151f0aa6d63ba18c65adc8228324f33078e0e661b90795b0d9e59e0cb67a9d1647f6071<br />
+SHA2-256 checksum for supermium_126_64_nonsetup.zip:<br />
+fc0a361dac5109b02f5373c887fbc184880be83aeb7df9d40c7972c6b85fa525<br />
+SHA3-512 checksum for supermium_126_64_nonsetup.zip:<br />
+3dd364ddaab451089e3abcdabf930efd314685b15d3cb0ec4b50c664bf38aee14ff81a8e88371aa6ed5fadc966799a63c03605d8f4a9ed42633320babfb5387e<br />
+SHA2-256 checksum for supermium_32_syms.7z:<br />
+0505ad8b85b40c80a14ce31cccd1545fd38b196ece819797f6be72e9583dd0cf<br />
+SHA3-512 checksum for supermium_32_syms.7z:<br />
+360ad18c952cf99749cfad23eea071181828e6d4b916620fefa40e5c788093cb399e147a07dceabfbe854f0425248be281c5ecb4321627d365433ef927fc671e<br />
+SHA2-256 checksum for supermium_64_syms.7z:<br />
+9b762e41d0398167c9f8138abc821bff0ad3c8f72cd1a446102d3c85109eff49<br />
+SHA3-512 checksum for supermium_64_syms.7z:<br />
+dc7fc418e4468be6dad7365e2d9121036d4f2663fbb8b70fe05e1d0a12d0b1633d42cf7d377e663db0848f3f4d885b2257506fb0531efd00a21256cca0f44535]]></description>
+<pubDate>Fri, 18 Oct 2024 15:21:14 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r4</guid>
+</item>
+<item>
+<title>Supermium 126.0.6478.249 R3 (XP x64 Hotfix)</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r3</link>
+<description><![CDATA[The following issues have been resolved in this hotfix:<br />
+(#871) - Forced web dark mode should no longer produce inverted-colour images.<br />
+(#874, #880, #881, #885, #888) - Further changes to target stability issues, mostly targetting DirectWrite and Windows XP x64.]]></description>
+<pubDate>Wed, 11 Sep 2024 06:43:08 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r3</guid>
+</item>
+<item>
+<title>Supermium 126.0.6478.249 R2 (Security + Hotfix)</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r2</link>
+<description><![CDATA[This version of Supermium includes:<br />
+-(#884) patches for CVE-2024-7965 and CVE-2024-7971<br />
+-(#874, #880, #881, #885) Windows XP launch issues should be fixed<br />
+-(#810, #877) Supermium installer version mismatch corrected (should read "126.0.6478.249 R2" in Installed Programs list)<br />
+-(#860) Chrome Refresh 2023 flag restored in addition to the command-line feature, ``ChromeRefresh2023``<br />
+-(#873) Old extension icon returns when Chrome Refresh 2023 is disabled]]></description>
+<pubDate>Tue, 10 Sep 2024 14:07:20 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r2</guid>
+</item>
+<item>
+<title>Supermium 126.0.6478.249 (Release)</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v126-r1</link>
+<description><![CDATA[This release follows up from the pre-release of version 126, with the following changes:<br />
+<br />
+-(#851, #861) sound restored on Windows XP<br />
+-(#813) Attempt to fix some DRM services that experienced issues after experimental DRM change in 124 R2<br />
+-(#853) Secondary monitor DPI fix for Windows 8.1 and up<br />
+-(#855) DWrite crash on exit fixed on Windows XP]]></description>
+<pubDate>Thu, 05 Sep 2024 06:51:15 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v126-r1</guid>
+</item>
+<item>
+<title>Supermium 124.0.6367.245 R2</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v124-r2</link>
+<description><![CDATA[Last release before rebase to Supermium 126. This is a short-term release to serve users dealing with several issues before the rebase is completed within the next ten days, with changes specific to Chromium 126.<br />
+<br />
+Some bug fixes have been applied:<br />
+-(#761) Anti-aliasing of fonts now enabled by default, even when system font smoothing is disabled, due to poor visual appearance. To revert this change, use the flag ``--disable-browser-font-smoothing-win``.<br />
+-(#722) Black backgrounds no longer appear behind UI elements when DWM is disabled or not available.<br />
+-(#720) DirectWriteCore now bundled with Supermium, as well as Noto Color Emoji. Colour emojis and other modern DirectWrite features are now available on Windows XP/Vista/7/8.x, as well as remote fonts, printing, etc. **VC++ 2015 runtime needed to use this version of DirectWrite, or else it will fall back to GDI or older DirectWrite**<br />
+-(#779) UACH now defaults to Google Chrome. It is also possible to disable UACH outright using the flag --remove-client-hints or associated feature as done in older Chromium versions.<br />
+-(#733) Installer now places desktop shortcuts in proper locations. Browser is registered in HKCU on Windows 8 and above if installing for a single user. The changes have also reduced the number of AV detections for the 32 bit Supermium installer.<br />
+-(#588) Flag ``--force-generic-download-icons`` introduced to prevent creation of excess number of processes when viewing download history.]]></description>
+<pubDate>Mon, 19 Aug 2024 17:03:09 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v124-r2</guid>
+</item>
+<item>
+<title>Supermium 124.0.6367.245</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v124</link>
+<description><![CDATA[Here is the main release of Supermium 124.0.6367.245. It contains further enhancements over the previous Supermium 124 release:<br />
+(#687) - fixed Windows 8.1 NVIDIA instability issue.<br />
+(#692) - Colour issues fixed on bookmark UI.<br />
+(#645, #693) ``--disable-machine-id`` and ``--disable-encryption`` switches will no longer result in profile data loss. Furthermore a new switch named ``--revert-from-portable`` will allow the user to revert a portable user data directory to non-portable without data loss as well. Warning dialogs will appear if the latter switch is used as it is only to be used temporarily, and is to be disabled when the directory has been successfully moved.<br />
+(#588) - the number of simultaneous download view icon loader processes is limited to 25. Any other processes will wait for others to complete.<br />
+(#721) - a minor issue preventing Supermium from recognizing itself as the default browser on Windows Vista/7/8.x has been fixed.<br />
+-The user agent will now report as version 127 to prevent issues with web services detecting Supermium as an outdated browser. This practice will likely continue when Supermium makes use of 126 ESR patches starting in August or September, as Chromium ESR tags are not widely known.]]></description>
+<pubDate>Wed, 10 Jul 2024 17:08:15 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v124</guid>
+</item>
+<item>
+<title>Supermium 122.0.6261.152 (R6) - SECURITY PATCH</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v122-r6</link>
+<description><![CDATA[Another high-risk V8 vulnerability was disclosed ([CVE-2024-4947](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4947)). For that reason, another release of Supermium 122 has been made. Provided there are no further high-risk vulnerabilities, the next Supermium release will be in mid-June.<br />
+<br />
+Some other changes were made:<br />
+-(#573) - lazy composition disabled by default due to isolated rendering bugs on Windows 7/8.1, use ``--force-lazy-compositor`` to disable<br />
+-(#576) - microphone input now works again on Windows XP<br />
+-(#568) - #compact-ui now covers bookmark bar<br />
+-(#578) - Supermium uninstaller now available, and shortcut is created in Start Menu/Programs<br />
+-(#574) - Screensaver no longer appears when watching videos on Windows XP (and likely Vista as well)<br />
+-(#580) - 8px tab strip gap becomes optional, split into ``--old-tab-strip-bounds``<br />
+-(#569) - Supermium installer now has commands for silent mode, Use ``-y --silent`` combined with a variety of flags to invoke. ``--system-level`` installs Supermium to Program Files while another path can be specified using "--path=%PATH%" (there is no "default path" so one of these two flags must be present).<br />
+Other flags that can be used:<br />
+``--install_emoji``: installs Segoe UI Emoji<br />
+``--shortcuts``: creates shortcuts<br />
+``--no_registry_writes``: does not write to registry<br />
+``--ungoogled``: enables Ungoogled mode in shortcuts<br />
+``--classic_theme``: enables classic theme in shortcuts]]></description>
+<pubDate>Sun, 19 May 2024 19:12:20 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v122-r6</guid>
+</item>
+<item>
+<title>Supermium 122.0.6261.152 (R5) - SECURITY PATCH</title>
+<link>https://github.com/win32ss/supermium/releases/tag/v122-r5</link>
+<description><![CDATA[This release of Supermium was made urgently to patch CVE-2024-4671 and CVE-2024-4761 (#570).<br />
+<br />
+Some other changes were made:<br />
+-re-introduction of FTP support<br />
+-(#556, #261) Font selection now possible in chrome://settings/fonts on Windows XP again<br />
+-(#534) Outline restored to inactive tabs]]></description>
+<pubDate>Tue, 14 May 2024 14:50:19 +0000</pubDate>
+<guid>https://github.com/win32ss/supermium/releases/tag/v122-r5</guid>
+</item>
+</channel>
+</rss>
